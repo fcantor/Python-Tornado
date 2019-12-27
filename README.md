@@ -9,7 +9,7 @@
 ### Endpoints
 - Visit `localhost:8882` on your browser
 Example | Endpoint | Address 
---- | ---
+--- | --- | ---
 Simple request handler | basicRequestHandler | `localhost:8882/`
 List | listRequestHandler | `localhost:8882/animals`
 Query Parameter | queryParamRequestHandler | `localhost:8882/isEven?num=__[INSERT NUMBER]__`
