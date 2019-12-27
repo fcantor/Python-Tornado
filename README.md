@@ -4,7 +4,7 @@
 - Fork this repo
 - In the command line:
   - Make sure you're in the Python-Tornado directory
-  - Run `./index.py` to start the server locally
+  - Run `./basic-endpoints.py` to start the server locally
 
 ### Endpoints
 - Visit `localhost:8882` on your browser
