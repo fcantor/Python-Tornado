@@ -16,7 +16,7 @@ class queryParamRequestHandler(tornado.web.RequestHandler):
     else:
       self.write(f"{num} is not a valid integer")
 
-class listRequestHandler(tornado.web.RequestHandler):
+class renderHTMLRequestHandler(tornado.web.RequestHandler):
   def get(self):
     self.render("index.html")
 
@@ -27,7 +27,7 @@ class resourceParamRequestHandler(tornado.web.RequestHandler):
 if __name__ == "__main__":
   app = tornado.web.Application([
     (r"/", basicRequestHandler),
-    (r"/animals", listRequestHandler),
+    (r"/animals", renderHTMLRequestHandler),
     (r"/isEven", queryParamRequestHandler),
     (r"/students/([A-Za-z]+)/([0-9]+)", resourceParamRequestHandler)
   ])
