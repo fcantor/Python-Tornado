@@ -31,5 +31,5 @@ Simple request handler | basicRequestHandler | `localhost:8882/` |
 Render HTML | renderHTMLRequestHandler | `localhost:8882/animals` | 
 Query Parameter | queryParamRequestHandler | localhost:8882/isEven?num=__[ANY NUMBER]__ | `localhost:8882/isEven?num=3`
 Resource Parameter | resourceParamRequestHandler | localhost:8882/students/__[ANY NAME]__/__[ANY NUMBER]__ | `localhost:8882/students/francesca/123`
-RESTful GET | listRequestHandler | localhost:8882/characters|
+RESTful GET | listRequestHandler | `localhost:8882/characters` |
 RESTful POST | listRequestHandler | localhost:8882/characters?character=__[CHARACTER NAME]__ | `localhost:8882/characters?character=Riker`
