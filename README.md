@@ -21,7 +21,7 @@ This file shows two simple examples of GET and POST request handlers in one endp
   - Open your browser and go to `localhost:8882/characters`
 - To make a POST request:
   - Use a service like [Postman](https://www.getpostman.com/)
-  - Send a POST request to `localhost:8882/characters?character=[CHARACTER NAME]` (Add a name to append to the existing list.txt)
+  - Send a POST request to `localhost:8882/characters?character=[CHARACTER NAME]` (Add a name to append to the existing `list.txt`)
   - Refresh browser to see the updated list, or open `list.txt` to see the updated list
 
 ### Endpoints
