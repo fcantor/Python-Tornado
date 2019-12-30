@@ -13,7 +13,7 @@ This file shows different types of request handlers, from basic endpoints to que
 
 #### Examples of RESTful GET and POST
 This file shows two simple examples of GET and POST request handlers in one endpoint
-- Fork this repo
+- Clone/download this repo
 - In the command line:
   - Make sure you're in the Python-Tornado directory
   - Run `./get-post.py` to start the server locally
