@@ -4,10 +4,12 @@
 
 #### Basic Endpoints
 This file shows different types of request handlers, from basic endpoints to query and resource paramaters
-- Fork this repo
+- Clone/download this repo locally
 - In the command line:
   - Make sure you're in the Python-Tornado directory
   - Run `./basic-endpoints.py` to start the server locally
+ - Open your browser and go to `localhost:8882`
+ - See table below to view different examples
 
 #### Examples of RESTful GET and POST
 This file shows two simple examples of GET and POST request handlers in one endpoint
